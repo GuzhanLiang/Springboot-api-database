@@ -24,4 +24,9 @@ public class employeeService {
     public List<employee> getemployee() {
         return employeerepository.findAll();
     }
+
+    public void addNewemployee(employee employee) {
+        System.out.println(employee);
+    }
+
 }
