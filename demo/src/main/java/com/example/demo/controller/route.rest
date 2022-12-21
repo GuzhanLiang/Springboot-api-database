@@ -1,12 +1,20 @@
+###
 POST http://localhost:8080/api/v1/employee
 Content-Type: application/json
 
 
 {
-    "firstName":"Bilal",
+    "name":"Bilal",
     "email":"bilad.ahmed@gmail.com",
-    "startyear":"1995-12-17",
+    "startyear":"1995-12-17"
     
 
 
 }
+
+### 
+DELETE http://localhost:8080/api/v1/employee/1
+
+###
+PUT http://localhost:8080/api/v1/employee/1?name=maria&&email=maria.maria@gmail.com
+Content-Type: application/json
